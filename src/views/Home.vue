@@ -1,8 +1,16 @@
+<script setup>
+import heroImage from '../assets/images/gorilla.jpg'
+
+const heroStyle = {
+  backgroundImage: `url(${heroImage})`
+}
+</script>
+
 <template>
   <!-- Hero Section -->
   <section
     class="relative h-screen bg-cover bg-center flex items-center justify-center text-white"
-    style="background-image: url('/src/assets/images/gorilla.jpg');"
+    :style="heroStyle"
   >
     
     <div class="bg-black/50 absolute inset-0"></div>
