@@ -3,11 +3,14 @@ import Home from "../views/Home.vue";
 import About from "../views/About.vue";
 import Contact from "../views/Contact.vue";
 import Services from "../views/Services.vue";
+import Photos from "../views/Photos.vue";
+import Videos from "../views/Videos.vue";
 import South from "../views/South.vue";
 import East from "../views/East.vue";
 import North from "../views/North.vue";
 import West from "../views/West.vue";
 import Kigali from "../views/Kigali.vue";
+import Translation from "../views/Translation.vue";
 
 
 
@@ -32,6 +35,23 @@ const routes= [
        path: "/services",
        name: "Services",
        component: Services
+    }
+     ,
+     {
+         path: "/photos",
+         name: "Photos",
+         component: Photos
+     },
+     {
+         path: "/videos",
+         name: "Videos",
+         component: Videos
+     }
+    ,
+    {
+       path: "/translation",
+       name: "Translation",
+       component: Translation
     }
     ,
     {

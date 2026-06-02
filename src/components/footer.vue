@@ -11,16 +11,19 @@
  <h3 class="text-yellow-300 font-bold text-1g mb-3">QuickLinks</h3>
  <ul class="space y-2 text-sm">
     <li>
-        <RouterLink to ="/"class="hover:text-yellow-300 font-bold text-1g mb-3">Home</RouterLink>
+        <RouterLink to="/" class="hover:text-yellow-300 font-bold text-1g mb-3">Home</RouterLink>
     </li>
      <li>
-        <RouterLink to ="/About"class="hover:text-yellow-300 font-bold text-1g mb-3">About</RouterLink>
+        <RouterLink to="/about" class="hover:text-yellow-300 font-bold text-1g mb-3">About</RouterLink>
     </li>
       <li>
-        <RouterLink to ="/Services"class="hover:text-yellow-300 font-bold text-1g mb-3">Services</RouterLink>
+        <RouterLink to="/services" class="hover:text-yellow-300 font-bold text-1g mb-3">Services</RouterLink>
     </li>
       <li>
-        <RouterLink to ="/Contact"class="hover:text-yellow-300 font-bold text-1g mb-3">Contact</RouterLink>
+        <RouterLink to="/translation" class="hover:text-yellow-300 font-bold text-1g mb-3">Translation</RouterLink>
+    </li>
+      <li>
+        <RouterLink to="/contact" class="hover:text-yellow-300 font-bold text-1g mb-3">Contact</RouterLink>
     </li>
 </ul>
 </div>
@@ -29,20 +32,20 @@
   <div> 
  <h3 class="text-yellow-300 font-bold text-1g mb-3">Destinations</h3>
  <ul class="space y-2 text-sm">
-    <li>
-        <RouterLink to ="/North" class="hover:text-yellow-300 font-bold text-1g mb-3">North</RouterLink>
+        <li>
+        <RouterLink to="/north" class="hover:text-yellow-300 font-bold text-1g mb-3">North</RouterLink>
         </li>
         <li>
-        <RouterLink to ="/South" class="hover:text-yellow-300 font-bold text-1g mb-3">South</RouterLink>
+        <RouterLink to="/south" class="hover:text-yellow-300 font-bold text-1g mb-3">South</RouterLink>
         </li>
         <li>
-        <RouterLink to ="/East" class="hover:text-yellow-300 font-bold text-1g mb-3">East</RouterLink>
+        <RouterLink to="/east" class="hover:text-yellow-300 font-bold text-1g mb-3">East</RouterLink>
         </li>
         <li>
-        <RouterLink to ="/West" class="hover:text-yellow-300 font-bold text-1g mb-3">West</RouterLink>
+        <RouterLink to="/west" class="hover:text-yellow-300 font-bold text-1g mb-3">West</RouterLink>
         </li>
         <li>
-        <RouterLink to ="/Kigali " class="hover:text-yellow-300 font-bold text-1g mb-3">Kigali city</RouterLink>
+        <RouterLink to="/kigali" class="hover:text-yellow-300 font-bold text-1g mb-3">Kigali city</RouterLink>
     </li>
     </ul>
     </div>
