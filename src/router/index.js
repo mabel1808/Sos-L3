@@ -10,7 +10,10 @@ import East from "../views/East.vue";
 import North from "../views/North.vue";
 import West from "../views/West.vue";
 import Kigali from "../views/Kigali.vue";
-import Translation from "../views/Translation.vue";
+import Login from "../views/Login.vue";
+import Register from "../views/Register.vue";
+import Translation from "../views/Translation.vue"
+
 
 
 
@@ -76,11 +79,19 @@ const routes= [
     name: "East",
     component: East
 },
+
 {
-    path: "/kigali",
-    name: "Kigali",
-    component: Kigali
+    path: "/login",
+    name: "Login",
+    component: Login
 },
+
+{
+    path: "/register",
+    name: "Register",
+    component: Register
+},
+
 ]
 const router = createRouter({
     history: createWebHistory(),

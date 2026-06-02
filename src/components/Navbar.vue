@@ -51,11 +51,11 @@
       </li>
 
       <li>
-        <router-link to="/contact" class="hover:text-yellow-300">
-          Contact Us
+        <router-link to="/contact" class="hover:text-yellow-300"> Contact Us
         </router-link>
-      </li>
-
+        </li>
+        <li><router-link to="/login" class="hover:text-yellow-300">Login</router-link></li>
+    
       <li>
         <router-link to="/translation" class="hover:text-yellow-300">Translation</router-link>
       </li>
